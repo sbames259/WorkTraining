@@ -1,0 +1,91 @@
+Week 2:
+
+Arrays:
+
+	const studentScores = [99.5, 78.1, 99.0, 87.4]
+
+	console.log('Student 3', studentScores[2]) // 99.0
+
+
+How to find the index of an item in the array:
+
+	console.log('78.1 score index', studentScores.indexof(78.1)) // 1
+
+How to find the length of an item in the array:
+
+	console.log('studentScore length', studentScores.length(2)) // 4
+
+How to find the last index in an array:
+
+	console.log('last student score index', studentScores(studentScores.length - 1)) // 87.4
+
+How to add a new item to an array:
+
+	studentScores.push(83.5)
+	console.log('studentScores adding score', studentScores)
+
+How to remove the last item in an array:
+
+	studentScores.pop()
+
+How to remove something from the middle of the array:
+
+	cosnt 3score = studentScores.indexof(99.0)
+	studentScores.splice(studentScores.indexof(99.0), 1)
+
+HOw to select a portion of an array:
+
+	console.log(studentScores.slice(studentScores.indexof(99.0), 2)
+
+
+How to start a new array:
+
+	const test2 = new array()
+	const anothernewarray = []
+
+
+
+
+
+Objects:
+
+	const animal = {}
+
+
+
+	animal.furColor = 'brown'
+	animal.eyeColor = 'black'
+	animal.species = 'Dog'
+
+
+
+Homework:
+
+write a function that takes in 3 test scores as parameters and puts them into an array. console.log the array with the test
+
+
+
+write a function takes in 5 parameters and returns an object with appropriate properties and values
+write a function that adds 1 more property with a value to that object
+
+
+
+
+
+
+
+/*** Write a function takes in 5 parameters and returns an object with appropriate properties and values 
+ * 
+ * write a function that adds one more property with a value to that object
+*/
+
+
+
+
+
+
+
+Extra Resources Used:
+
+Connecting Git to VSCode: notyourdadsit.com/blog/2018/4/3/cheatsheet-setup-github-on-visual-studio-code
+Pushing from VSCode to Git: youtube.com/watch?v=qXJ_CQLj-o0

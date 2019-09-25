@@ -1,0 +1,72 @@
+IDE
+visual studio code
+
+LTS version of Node and NPM
+
+Git installed
+https://git-scm.com/download/win
+
+
+
+
+Variables:
+
+var - declares a variable (don't use)
+let - variables that can change
+const - variables that are contant
+
+let name = 'Nate'
+
+const today = new Date()
+     -date is a constant data type and data (at least for today)
+
+console.log(today)
+
+console.log('Today is ${today}')
+console.log('Today is' + today + ' and tomorrow is ', + newDate().addDate())
+
+today = 'billy bob'
+
+
+Comments:
+
+// -line comment
+
+/**  */ -block comment
+
+
+
+Data Types:
+
+const string = 'this is a string';
+
+const number = 2
+
+const float = 2.1
+
+const object = {}
+     -Something that has properties
+     -const student = {}    -created object, created properties
+          student.name = 'Nate',
+          student.age = '31',
+          student.hair = 'blonde',
+
+
+
+const array = []
+     -stores multiple variables
+     -const students = ['Sam', 'Eve', 'Mike', 'Nate']
+
+
+Running a .js file from Command Line:
+
+-Navigate to the folder (cd command)
+- >node ./(filename).js
+
+
+
+Homework:
+
+1) Create a function to add 2 numbers together and console logs the answer.
+2) Create a function that allows you to pass in 2 numbers and either add them/subtract them and console log a string that
+      says "the answer of x (operator) y is: Z)
