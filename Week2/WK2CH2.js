@@ -19,15 +19,3 @@ function attributeAdd(favColor) {
 attributeAdd.call(person1, 'red');
 
 console.log(person1)
-
-
-
-
-/*
-const person2 = new personCreate("Olivia", "Aguillon", "Brown", "Brown", 21);
-const person3 = new personCreate("Rayna", "Ames", "Hazel", "Brown", 21);
-
-const people =[person1, person2, person3];
-
-console.log(people)
-*/
