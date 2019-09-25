@@ -1,7 +1,3 @@
-//score1 = 81.3
-//score2 = 94.5
-//score3 = 98.9
-
 const scores = []
 
 function testScores(score1, score2, score3) {
