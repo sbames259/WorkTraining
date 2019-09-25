@@ -50,6 +50,24 @@ Ternary:
     ? means true
     : means false
 
-lvl 2 challenge bonus:
+lvl 1 Challenge:
+/***
+ * Write a function that evaluates an age and returns if the user is of drinking age (21) or not
+ * 
+ * **BONUS** use a ternary
+ */
 
-display grading scale above
+
+lvl 2 challenge bonus:
+/***
+ * Write a function or series of functions that will tell what letter grade a students test score is
+ * 
+ * ex. a score of 91 is an A, a score of 55 is an F
+ * 
+ * **BONUS**
+ * 
+ * push the letter grades into an array and sort the array from lowest grade to highest
+ ***/
+
+    Bonus 2:
+    display grading scale above
