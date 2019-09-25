@@ -1,5 +1,3 @@
-
-
 function personCreate(fname, lname, eyeColor, hairColor, age) {
     this.firstName = fname;
     this.lastName = lname;
