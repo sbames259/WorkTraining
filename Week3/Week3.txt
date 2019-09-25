@@ -1,0 +1,55 @@
+Values you pass to a function are called parameters
+
+You can cross-reference other files in JS
+
+Default Parameters:
+
+    Ask for required parameters first in a function and then do default parameters.
+
+
+Returns:
+
+    Anything in a function after a return will not execute, return is the end of the line.
+
+
+
+String literal:
+
+    function helloName(name = 'Bill'){
+        return 'Hello, ${name}
+    }
+
+    ${name} is a string literal and allows me to drop the variable right into the string.
+
+
+If/Else Statements:
+
+    Check the largest value first, then move down (ages: senior, adult, teenager, child)
+
+Conditional Operators:
+
+    = sets a value to a variable
+    == evaluates the value only and not the type
+    === evaluates the value AND data type (use this most often in JS)
+
+    != not equal, opposite of ==
+    !=== not equal, opposite of ===
+
+    && AND condition (must meet ALL conditions specified by AND)
+
+    || OR condition (must meet at least ONE condition specified by OR)
+
+    * the ! sign means not, can be placed in front of a variable to make it opposite (not)
+
+Ternary:
+    
+    let age = 16
+    Let x = age >= 18;
+        ? 'adult'
+        : 'child'
+    ? means true
+    : means false
+
+lvl 2 challenge bonus:
+
+display grading scale above
