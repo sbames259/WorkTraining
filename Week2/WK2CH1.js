@@ -10,3 +10,7 @@ function testScores(score1, score2, score3) {
 }
 
 console.log(testScores(94.5, 81.3, 98.9))
+
+console.log(testScores(90, 50, 60))
+
+console.log(scores)

@@ -30,7 +30,7 @@ How to remove the last item in an array:
 
 How to remove something from the middle of the array:
 
-	cosnt 3score = studentScores.indexof(99.0)
+	const 3score = studentScores.indexof(99.0)
 	studentScores.splice(studentScores.indexof(99.0), 1)
 
 HOw to select a portion of an array:
