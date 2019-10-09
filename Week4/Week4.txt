@@ -1,0 +1,50 @@
+Array Methods:
+
+syntax: array.method() (ie years.length())
+
+slice - view something from the middle of an Array
+splice - remove something from the middle of an Array
+length - view the number of indexes in an Array
+push - insert a new value on the end of an Array
+sort - sort an Array ALPHABETICALLY (you have to use a comparison)
+
+You can view the methods by hitting f12 in some browsers (devtools)
+
+concat - combines two or more arrays, one after the other, to form a new array with all values
+    example: console.log('concat students and years', students.concat(years))
+    this will smash the students array and the years array together into one array.
+
+In VSCode, you can hold ctrl and hover over a method or function to view it. Holding alt will show notes
+    /info on that method/function.
+
+filter - filters the contents of an array and returns a new array that matches the given criteria.
+    example: const years = [1972, 1900, 1984, 1862, 1776, 2004, 1983, 2042]
+    const modernYears = years.filter(function (y)) {
+        return y > 1900
+    }
+    console.log('Modern Years ', modernYears)
+    
+findIndex - returns the index of an element in the array that matches the given criteria.
+    function findNameIndex(name) {
+        return students.findIndex(function (s))
+            return s === name
+    }
+
+includes - returns true if the given array includes includes the given value and false if it does not.
+    This is useful to check if a value exists inside of an array.
+
+join - inserts the specified sperator strin in between each element in the array.
+
+reverse - reverses the order of an array *does NOT sort, it just reverses whatever order the array is
+     currently in.
+
+shift - removes and returns the first element of an array (this will delete the first element of the array).
+
+unshift - adds a new element to the begining of an array (opposite of a push), and returns the new
+    length of the array.
+
+toString - returns the array as a string.
+
+
+Level 1 challenge:
+    (see mplearninggroup challenge document)
