@@ -1,5 +1,8 @@
 const testGrade = [];
 
+const scale = '0-59 is an F, 60-69 is a D, 70-79 is a C, 80-89 is a B, 90-100 is an A \n';
+console.log(scale);
+
 function scoreConversion(score) {
     if (score >= 101) {grade = 'Please provide a valid test score.'}
     else if (score >= 90) {grade = 'A'}
@@ -20,8 +23,6 @@ function pushScore(score) {
     testGrade.sort();
 
     testGrade.reverse();
-
-    return '0-59 is an F, 60-69 is a D, 70-79 is a C, 80-89 is a B, 90-100 is an A \n' + testGrade;
    
 }
 
@@ -37,4 +38,4 @@ pushScore(80);
 pushScore(45);
 pushScore(89);
 
-console.log(pushScore(70))
+console.log(testGrade)
