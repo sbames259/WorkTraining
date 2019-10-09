@@ -1,8 +1,8 @@
 const testGrade = [];
 
-//sorter = mySort('P+ABCDF-'); This was to specify sort order, but it didn't work like I wanted.
+sorter = mySort('P+ABCDF-'); This was to specify sort order, but it didn't work like I wanted.
 
-/**
+
  This function's purpose was to take the values specified in sorter and put + grades before and - grades after.
  function mySort(alphabet) {
     return function(a, b) {
@@ -15,9 +15,9 @@ const testGrade = [];
         else {return index_a - index_b;};
     }
 }
-*/
 
-/**
+
+
  This was meant to be a more advanced grading scale, but I couldn't find a way to correctly sort the grades.
 function scoreConversion(score) {
     if (score >= 101) {grade = 'Please provide a valid test score.'}
@@ -37,7 +37,7 @@ function scoreConversion(score) {
 
     //console.log(grade);
 }
-*/
+
 
 function testArray(score) {
     scoreConversion(score)
