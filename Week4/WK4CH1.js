@@ -51,10 +51,13 @@ const sortByNum = assets.sort(function(a, b) {
 console.log(sortByNum);
 
 
+function chopAndCount(assetsArray) {
+    const fifteenOrMore = assetsArray.filter(function(e) {
+        return e.totalWorkOrders > 15;
+    })
 
-const moreThanFifteen = assets.filter(function(e) {
-    return e.totalWorkOrders > 15;
-});
+    console.log(fifteenOrMore)
+    console.log(fifteenOrMore.length)
+}
 
-console.log(moreThanFifteen);
-console.log(moreThanFifteen.length);
+console.log(chopAndCount(assets))
