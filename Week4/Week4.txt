@@ -3,7 +3,7 @@ Array Methods:
 syntax: array.method() (ie years.length())
 
 slice - view something from the middle of an Array
-splice - remove something from the middle of an Array
+splice - remove something from the middle of an Array, but can also be used to add items to the middle of an array.
 length - view the number of indexes in an Array
 push - insert a new value on the end of an Array
 sort - sort an Array ALPHABETICALLY (you have to use a comparison)
@@ -33,7 +33,8 @@ findIndex - returns the index of an element in the array that matches the given 
 includes - returns true if the given array includes includes the given value and false if it does not.
     This is useful to check if a value exists inside of an array.
 
-join - inserts the specified sperator strin in between each element in the array.
+join - inserts the specified seporator string in between each element in the array. (for instance, you could insert
+    'and' in between each element in the array, this will also display the array as a string.)
 
 reverse - reverses the order of an array *does NOT sort, it just reverses whatever order the array is
      currently in.
@@ -47,4 +48,16 @@ toString - returns the array as a string.
 
 
 Level 1 challenge:
-    (see mplearninggroup challenge document)
+  /***
+ * write a function or series of functions that will sort the list of assets by number of work orders completed
+ * 
+ * **BONUS**
+ * 
+ * write a function or series of functions that returns only those assets that have more than 15 work orders 
+ * and displays each of them. I also want to know how many assets have more than 15 work orders
+ */
+
+
+
+ Used Resources:
+https://stackoverflow.com/questions/6212737/sorted-a-javascript-array-of-objects-by-an-object-property  

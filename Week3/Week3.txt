@@ -75,5 +75,5 @@ lvl 2 challenge bonus:
 
 Challenge Resources Used:
 https://stackoverflow.com/questions/10951167/sorting-in-javascript-with-special-characters  
-W3schools.com/js/
+http://W3schools.com/js/
 http://jennifermadden.com/javascript/lineBreaks.html   

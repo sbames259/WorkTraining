@@ -87,5 +87,5 @@ write a function that adds 1 more property with a value to that object
 
 Extra Resources Used:
 
-Connecting Git to VSCode: notyourdadsit.com/blog/2018/4/3/cheatsheet-setup-github-on-visual-studio-code
-Pushing from VSCode to Git: youtube.com/watch?v=qXJ_CQLj-o0
+Connecting Git to VSCode: http://notyourdadsit.com/blog/2018/4/3/cheatsheet-setup-github-on-visual-studio-code
+Pushing from VSCode to Git: http://youtube.com/watch?v=qXJ_CQLj-o0
