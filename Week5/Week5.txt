@@ -23,3 +23,6 @@ Loops
 
     mapLoop
         USE THIS!! similar to for loop, but is immutabile (doesn't overwrite original array)
+
+
+        For the bonus challenge, the .reduce method is the best, otherwise try to use .map
