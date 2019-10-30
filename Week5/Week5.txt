@@ -1,0 +1,25 @@
+Loops
+   
+    For Loop
+    
+    const students = ['Jane', 'Caleb', 'John', 'Frank', JoAnna', 'Kerri']
+
+    function welcomeStudents(studentlist) {
+        for (
+            let i = 0; //The 'start' index. This sets a variable i to 0
+            i < studentList.length; // the condition for continuing
+            i++ //incrementer for the index variable, i++ says to increment i by 1 each iteration
+        )
+        {console.log('Welcome, ${studentList[i]})}
+    }
+
+    forEach Loop
+        takes in a function and applies it to every object in an array.
+
+    
+    forIn Loop
+        allows access to the property and the property keys of an object.
+
+
+    mapLoop
+        USE THIS!! similar to for loop, but is immutabile (doesn't overwrite original array)
